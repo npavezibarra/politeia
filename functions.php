@@ -34,7 +34,7 @@ function politeia_user_completed_lessons_with_dates() {
 
 function politeia_count_lessons_completed_per_day() {
     // Definir nombres de días en español comenzando con lunes
-    $spanishDays = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'];
+    $spanishDays = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Domi'];
 
     // Inicializar arrays para etiquetas y datos
     $labels_for_chart = $spanishDays;

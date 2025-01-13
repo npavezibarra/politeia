@@ -1,0 +1,39 @@
+#banner-ventas {
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+
+/* Media query for screens below 800px width */
+@media (max-width: 800px) {
+    #banner-ventas {
+        width: 100%;
+        padding: 20px; /* Optional: Adjust padding for smaller screens */
+    }
+}
+
+
+#banner-ventas h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+#banner-ventas p {
+    font-size: 16px;
+    color: #555;
+}
+
+#banner-ventas .btn-mas-informacion {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f5a623;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}

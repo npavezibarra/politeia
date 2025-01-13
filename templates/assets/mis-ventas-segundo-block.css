@@ -1,0 +1,93 @@
+/* SEGUNDA MY ROGRESO ROW */
+
+div#segundo-block-mis-ventas {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 20px !important;
+}
+
+#ventas-modulo-three {
+    width: 60% !important;
+    height: 350px !important;
+    background: white;
+    border: 1px solid #d7d9dd;
+    border-radius: 9px;
+    
+}
+
+#ventas-modulo-four {
+    width: 40% !important;
+    height: 350px !important;
+    background: white;
+    border: 1px solid #d7d9dd;
+    border-radius: 9px;
+    padding:20px;
+}
+
+ul.ventas-mensuales-list {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.ventas-mensuales-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 9px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.ventas-mensuales-container h3 {
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+
+.ventas-mensuales-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ventas-mensuales-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.ventas-mensuales-list li:last-child {
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 800px) {
+    #primer-block-mis-ventas {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-height: 1000px;
+    }
+
+    div#segundo-block-mis-ventas {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    #ventas-modulo-three {
+        width: 100% !important;
+        height: 350px !important;
+        background: white;
+        border: 1px solid #d7d9dd;
+        border-radius: 9px;
+    }
+
+    #ventas-modulo-four {
+        width: 100% !important;
+        height: 350px !important;
+        background: white;
+        border: 1px solid #d7d9dd;
+        border-radius: 9px;
+        padding: 20px;
+    }
+}
+

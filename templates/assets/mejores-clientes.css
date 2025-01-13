@@ -1,0 +1,46 @@
+.mejores-clientes-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.mejores-clientes-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.mejores-clientes-container td {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mejores-clientes-container img.client-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.mejores-clientes-container tr {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d7d9dd;
+    height: 60px;
+}
+
+.mejores-clientes-container span {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.mejores-clientes-container td:last-child {
+    font-weight: bold;
+    text-align: center;
+}
+
+.mejores-clientes-container td, th {
+    padding: 1rem 1rem;
+    border-bottom: none !important;
+}

@@ -1,0 +1,364 @@
+/* General Styling for Progreso Modulo One */
+#progreso-modulo-one {
+    width: 40%;
+    background-color: #ffffff;
+    border: 1px solid #d7d9dd;
+    border-radius: 9px;
+    padding: 20px;
+}
+
+/* General Styling for Progreso Modulo Two */
+#progreso-modulo-two {
+    width: 60%;
+    background-color: #ffffff;
+    border: 1px solid #d7d9dd;
+    border-radius: 9px;
+    padding: 20px;
+}
+
+#progreso-modulo-one > p {
+    font-size: 12px;
+}
+
+#progreso-modulo-one > h3 {
+    margin-bottom: 2px;
+}
+
+#progreso-modulo-two > p {
+    font-size: 12px;
+}
+
+
+
+/* Estilos para #primer-block-mi-progreso */
+#primer-block-mi-progreso {
+    display: flex;
+    gap: 20px;
+    max-height: 420px;
+    margin-bottom: 20px;
+}
+
+#primer-block-mis-ventas {
+    display: flex;
+    gap: 20px;
+    max-height: 420px;
+    margin-bottom: 20px;
+}
+
+/* Modulo 2 Group List and Items */
+.ld-group-list {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.ld-group-list > h3 {
+    margin-bottom: 10px !important;
+}
+
+.ld-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.ld-group-item div {
+    margin-right: 20px;
+}
+
+.ld-group-item div:last-child {
+    margin-right: 0;
+}
+
+/* Course Circles Styling */
+.courses {
+    display: flex;
+    gap: 5px;
+}
+
+/* Course Circles Styling with States */
+.course-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.course-circle.exists {
+    background-color: #d3d3d3 !important; /* Light gray */
+}
+
+.course-circle.enrolled {
+    background-color: #808080; /* Dark gray */
+}
+
+.course-circle.completed {
+    background-color: #FFD700; /* Gold */
+}
+
+/* Responsive Design for screens less than 800px wide */
+@media only screen and (max-width: 800px) {
+    .ld-group-item {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        justify-content: center; /* Centrar el contenido en pantallas pequeñas */
+        align-items: center; /* Centrar los elementos en pantallas pequeñas */
+    }
+
+    #primer-block-mi-progreso {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-height: 350px;
+    }
+
+    #primer-block-mis-ventas {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-height: 350px;
+    }
+
+    div#progreso-modulo-one {
+        width: 100%;
+        text-align:center;
+    }
+
+    div#progreso-modulo-two {
+        width: 100%;
+        text-align:center;
+    }
+
+    .ld-group-item > #group-name-title {
+        margin-right: 0px;
+    }
+
+    .ld-group-item > .courses {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+#module-two-chart {
+    max-height: 300px;
+}
+
+/* MIS VENTAS */
+
+table#mis-ventas {
+    border: none !important;
+    font-size: 14px;
+}
+
+#ventas-modulo-one {
+    width: 40%;
+    background-color: #ffffff;
+    border: 1px solid #d7d9dd;
+    border-radius: 9px;
+    padding: 20px;
+    height: 420px !important;
+}
+
+#ventas-modulo-two {
+    width: 60%;
+    background-color: #ffffff;
+    border: 1px solid #d7d9dd;
+    border-radius: 9px;
+    padding: 20px;
+    height: 420px;
+}
+
+div#mis-ventas_length>label,select {
+    font-size: 12px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: transparent;
+    padding: 4px;
+    height: 30px;
+    width: 40px;
+}
+
+div#mis-ventas_filter>label {
+    font-size: 14px;
+}
+
+#ventas-modulo-two input[type="search"] {
+    height: 30px;
+}
+
+table.dataTable thead .sorting_desc {
+    background: url(../images/svg/sort-down.svg) no-repeat center right 15px;
+    background-size: 15px !important;
+}
+
+div#mis-ventas_info {
+    font-size: 12px;
+    color: #bfbfbf;
+}
+
+div#mis-ventas_paginate {
+    border: 1px solid #dddddd;
+    border-radius: 9px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#ventas-modulo-two a.paginate_button.current {
+    padding: 0px !important;
+}
+
+@media only screen and (max-width: 800px) {
+
+    #ventas-modulo-one {
+        width: 100%;
+        background-color: #ffffff;
+        border: 1px solid #d7d9dd;
+        border-radius: 9px;
+        padding: 20px;
+    }
+
+    #ventas-modulo-two {
+        width: 100%;
+        background-color: #ffffff;
+        border: 1px solid #d7d9dd;
+        border-radius: 9px;
+        padding: 20px;
+        height: 100%;
+    }
+
+    div#mis-ventas_length {
+        display: none;
+    }
+
+    #ventas-modulo-two>div>h3 {
+        text-align: center;
+    }
+
+    div#mis-ventas_filter {
+        margin-bottom: 30px;
+    }
+
+    #ventas-semana-container>#title-ventas>h3, p {
+        text-align: left;
+    }
+
+    #ganancias>h3>span {
+        text-align: right;
+    }
+}
+
+/* MIS EVALUACIONES */
+
+/* EVALUACIONES */
+
+#evaluaciones-modulo-one {
+    width: 40%;
+    background-color: #ffffff;
+    border: 1px solid #d7d9dd;
+    border-radius: 9px;
+    padding: 20px;
+}
+
+#evaluaciones-modulo-two {
+    width: 60%;
+    background-color: #ffffff;
+    border: 1px solid #d7d9dd;
+    border-radius: 9px;
+    padding: 20px;
+    height: 100%;
+}
+
+div#evaluaciones-modulo-one > p {
+    font-size: 12px;
+}
+
+div#evaluaciones-modulo-one > h3 {
+    margin-bottom: 2px;
+}
+
+div#evaluaciones-modulo-two > p {
+    font-size: 12px;
+}
+
+/* Responsive Design for screens less than 800px wide */
+@media only screen and (max-width: 800px) {
+
+    #evaluaciones-modulo-one {
+        width: 100%;
+        background-color: #ffffff;
+        border: 1px solid #d7d9dd;
+        border-radius: 9px;
+        padding: 20px;
+    }
+
+    #evaluaciones-modulo-two {
+        width: 100%;
+        background-color: #ffffff;
+        border: 1px solid #d7d9dd;
+        border-radius: 9px;
+        padding: 20px;
+        height: 100%;
+    }
+
+    div#evaluaciones-modulo-one > h3 {
+        text-align: center;
+    }
+
+    div#evaluaciones-modulo-one > p {
+        text-align: center;
+    }
+
+    div#evaluaciones-modulo-two > h3 {
+        text-align: center;
+    }
+
+    div#evaluaciones-modulo-two > p {
+        text-align: center;
+    }
+}
+
+/* Estilos para #primer-block-mis-evaluaciones */
+#primer-block-mis-evaluaciones {
+    display: flex;
+    gap: 20px;
+    max-height: 350px;
+}
+
+/* Responsive Design for screens less than 800px wide */
+@media only screen and (max-width: 800px) {
+    #primer-block-mis-evaluaciones {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-height: 350px;
+    }
+
+    div#evaluaciones-modulo-one {
+        width: 100%;
+        text-align: center;
+    }
+
+    div#evaluaciones-modulo-two {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* LISTA EVALUACIONES */
+
+table#tabla-evaluaciones {
+    border: none;
+    font-size: 14px;
+}
+
+
+
